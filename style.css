@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Cochin';
+    src: url('fonts/Cochin.eot');
+    src: url('fonts/Cochin.eot') format('embedded-opentype'),
+         url('fonts/Cochin.woff2') format('woff2'),
+         url('fonts/Cochin.woff') format('woff'),
+         url('fonts/Cochin.ttf') format('truetype'),
+         url('fonts/Cochin.svg#Cochin') format('svg');
+}
+
+
+#header{
+    background-color: #0c1d29;
+    padding: 55px 0px;
+    color: #ab8b4a;
+    position: relative;
+}
+#header h1{
+    font-family: 'Cochin';
+    font-size: 45px;
+    float: right;
+}
+#header h6{
+    font-family: 'Cochin';
+    font-size: 17px;
+    max-width: 220px;
+    font-weight: 600;
+}
+#header h1::after {
+    content: '/';
+    width: 18px;
+    top: -37px;
+    font-size: 109px;
+    position: absolute;
+    left: 165px;
+    color: #3d423e;
+    font-weight: 100;
+}
+#main-banner .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    bottom: 37px;
+    font-size: 100px;
+    right: 201px;
+    font-weight: 100;
+    color: #aeabb1;
+    outline: none !important;
+}
+#main-banner .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    bottom: 37px;
+    font-size: 100px;
+    right: 140px;
+    font-weight: 100;
+    color: #aeabb1;
+    outline: none !important;
+}
