@@ -7,11 +7,29 @@
          url('fonts/Cochin.ttf') format('truetype'),
          url('fonts/Cochin.svg#Cochin') format('svg');
 }
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('fonts/HelveticaNeue.eot');
+    src: url('fonts/HelveticaNeue.eot') format('embedded-opentype'),
+         url('fonts/HelveticaNeue.woff2') format('woff2'),
+         url('fonts/HelveticaNeue.woff') format('woff'),
+         url('fonts/HelveticaNeue.ttf') format('truetype'),
+         url('fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+}
+@font-face {
+    font-family: 'HelveticaNeueLight';
+    src: url('fonts/HelveticaNeueLight.eot');
+    src: url('fonts/HelveticaNeueLight.eot') format('embedded-opentype'),
+         url('fonts/HelveticaNeueLight.woff2') format('woff2'),
+         url('fonts/HelveticaNeueLight.woff') format('woff'),
+         url('fonts/HelveticaNeueLight.ttf') format('truetype'),
+         url('fonts/HelveticaNeueLight.svg#HelveticaNeueLight') format('svg');
+}
 
 
-#header{
+#header {
     background-color: #0c1d29;
-    padding: 55px 0px;
+    padding: 30px 0px;
     color: #ab8b4a;
     position: relative;
 }
@@ -53,4 +71,63 @@
     font-weight: 100;
     color: #aeabb1;
     outline: none !important;
+}
+
+/* tabs styling */
+#unlock {
+    padding: 64px 0px 112px;
+    border-bottom: 1px solid #cccccc;
+}
+#unlock h2 {
+    color: #a17d2c;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'HelveticaNeue';
+    letter-spacing: 5px;
+}
+#unlock h3 {
+    color: #a17d2c;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'HelveticaNeue';
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+#unlock p {
+    text-align: center;
+    color: #636363;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0px 100px;
+    font-size: 15px;
+    font-family: 'HelveticaNeue';
+}
+#global{
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+#global h6 {
+    width: auto;
+    font-family: 'HelveticaNeueLight';
+    color: #0c1d29;
+    font-size: 18px;
+    margin: 0px 34px;
+    position: relative;
+}
+#global h6::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 73%;
+    padding-top: 7px;
+    border-bottom: 2px solid #a17d2c;
+}
+#global li{
+    position: relative;
+}
+#global li a {
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 20px 48px;
+    position: absolute;
 }
